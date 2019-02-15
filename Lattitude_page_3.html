@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Bootstrap Components</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Resources/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="screen">
+    <link rel="stylesheet" href="./Resources/style.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!--Custom style sheets-->
   <style>
     .head1 {
       background: lightblue;
     }
-  
+    .contain {object-fit: contain;}
   </style>
   
   </head>
@@ -50,20 +53,39 @@
     <div class="container">
         <div class="row">
 
-                <!-- First of two columns -->
-                <div class="col-md-4">
-                  <h1>Summary Lattitude vs X</h1>
+            <!-- First of two columns -->
+        <div class="col-sm-8 col-md-8 col-lg-8">
+              <h1>Cloudiness</h1>                
+                <img src=".\Resources\assets\images\fig3.png" >
+              <p> Description about Cloudiness 
+                  Description about Cloudiness
+                  Description about Cloudiness
+                  Description about Cloudiness
+                  Description about Cloudiness
+                  Description about Cloudiness
+              </p>
+        </div>
+                    
+            <!-- Second of two columns -->
+        <div class="col-md-4">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <h1 color=lightseagreen >Visualizations</h1> 
+                    </div>
                 </div>
-                    <img src=".\Resources\assets\images\fig3.png"
-                <div class="col-md-4">
-                        <h1>Description</h1>
-                      </div>
-                
-                <!-- Second of two columns -->
-                <div class="col-md-4">
-                  <h1>Visualization</h1>
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-6">  
+                    <a href="Lattitude_page_1.html">  <img src=".\Resources\assets\images\fig1.png" height="150" width="150"></a>     
+                    <a href="Lattitude_page_2.html"> <img src=".\Resources\assets\images\fig2.png"height="150" width="150"></a>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <a href="Lattitude_page_3.html"> <img src=".\Resources\assets\images\fig3.png"height="150" width="150"></a>                
+                    <a href="Lattitude_page_4.html"> <img src=".\Resources\assets\images\fig4.png"height="150" width="150"></a>
+                  </div>
                 </div>
-              </div>
+              
+        </div>
+      </div>  
     </div>
 
 
