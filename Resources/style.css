@@ -21,3 +21,24 @@
 .red {
   background: indianred;
 }
+
+h1
+{
+  color: lightseagreen
+}
+
+.contentMain {  
+  margin-top: 100px; 
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightgrey;
+}
+
+.contentMain1 {  
+  margin-top: 100px; 
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: wheat;
+}
